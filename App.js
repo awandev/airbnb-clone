@@ -14,7 +14,7 @@ import {
 import HomeScreen from './src/screens/Home'
 import SearchResult from './src/screens/SearchResults'
 import DestinationSearchScreen from './src/screens/DestinationSearch'
-
+import GuestsScreen from './src/screens/Guests'
 import Post from './src/components/Post'
 
 
@@ -30,7 +30,8 @@ const App: () => React$Node = () => {
         {/* <HomeScreen /> */}
         {/* <Post post={post1} /> */}
         {/* <SearchResult /> */}
-        <DestinationSearchScreen />
+        {/* <DestinationSearchScreen /> */}
+        <GuestsScreen />
       </SafeAreaView>
     </>
   );
