@@ -13,6 +13,8 @@ import {
 } from 'react-native';
 import HomeScreen from './src/screens/Home'
 import SearchResult from './src/screens/SearchResults'
+import DestinationSearchScreen from './src/screens/DestinationSearch'
+
 import Post from './src/components/Post'
 
 
@@ -27,7 +29,8 @@ const App: () => React$Node = () => {
       <SafeAreaView>
         {/* <HomeScreen /> */}
         {/* <Post post={post1} /> */}
-        <SearchResult />
+        {/* <SearchResult /> */}
+        <DestinationSearchScreen />
       </SafeAreaView>
     </>
   );
