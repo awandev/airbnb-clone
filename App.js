@@ -17,7 +17,7 @@ import DestinationSearchScreen from './src/screens/DestinationSearch'
 import GuestsScreen from './src/screens/Guests'
 import Post from './src/components/Post'
 
-
+import Router from './src/navigation/Router';
 
 
 
@@ -26,13 +26,14 @@ const App: () => React$Node = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
-      <SafeAreaView>
-        {/* <HomeScreen /> */}
-        {/* <Post post={post1} /> */}
-        {/* <SearchResult /> */}
-        {/* <DestinationSearchScreen /> */}
-        <GuestsScreen />
-      </SafeAreaView>
+
+      {/* <HomeScreen /> */}
+      {/* <Post post={post1} /> */}
+      {/* <SearchResult /> */}
+      {/* <DestinationSearchScreen /> */}
+      {/* <GuestsScreen /> */}
+      <Router />
+
     </>
   );
 };
